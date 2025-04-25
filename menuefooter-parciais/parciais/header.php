@@ -10,20 +10,30 @@
 </head>
 
 <body>
-    <header>
+<header>
+ 
+ <nav class="navbar">
 
-        <header>
-            <nav class="navbar">
-                <div class="logo"><a href="../menuefooter-parciais/">MinhaMarca</a></div>
-                <div class="menu-toggle" id="menu-toggle">&#9776;</div>
-                <ul class="nav-list">
-                    <li><a href="/menuefooter-parciais/">Início</a></li>
-                    <li><a href="/menuefooter-parciais/sobre.php">Sobre</a></li>
-                    <li><a href="/menuefooter-parciais/servicos.php">Serviços</a></li>
-                    <li><a href="/menuefooter-parciais/contato.php">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
+     <div class="logo"> <a href="/menuefooter-parciais/"> Minha Marca</a></div>
+
+     <div class="menu-toggle" id="menu-toggle"> &#9776; </div>
+
+     <ul class="nav-list" id="nav-list">
+
+         <li> <a href="/menuefooter-parciais/"> Inicio</a></li>
+
+         <li> <a href="/menuefooter-parciais/sobre.php"> Sobre</a></li>
+
+         <li> <a href="/menuefooter-parciais/servicos.php"> Servicos</a></li>
+
+         <li> <a href="/menuefooter-parciais/contato.php"> Contato</a></li>
+
+     </ul>
+ </nav>
+
+ </header>
+
+
 
         <script>
             document.addEventListener("DOMContentLoaded", function() {
